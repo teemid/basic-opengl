@@ -1,0 +1,8 @@
+#ifndef GL_DEF
+#define GL_DEF(type, name)
+#endif
+
+GL_DEF(PFNGLCLEARCOLORPROC, glClearColor)
+GL_DEF(PFNGLCLEARPROC,      glClear)
+
+#undef GL_DEF
